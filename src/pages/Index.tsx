@@ -20,13 +20,13 @@ const Index = () => {
       <div className="max-w-4xl w-full mx-auto">
         <div className="space-y-4 text-center mb-12">
           <div className="inline-flex items-center justify-center px-3 py-1 mb-2 text-xs font-medium rounded-full bg-primary/10 text-primary">
-            Educational Assessment Platform
+            Techno International BataNagar
           </div>
           <h1
             className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter animate-fade-up"
             style={{ animationDelay: "0.1s" }}
           >
-            ExamHub
+            Exam Portal 
           </h1>
           <p
             className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-up"
@@ -96,7 +96,7 @@ const Index = () => {
           style={{ animationDelay: "0.4s" }}
         >
           <p className="text-sm text-muted-foreground">
-            ExamHub — Designed for simplicity and effectiveness
+            ExamPortal — Designed for simplicity and effectiveness
           </p>
         </div>
       </div>
