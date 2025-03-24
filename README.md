@@ -1,69 +1,117 @@
-# Welcome to your Lovable project
+# 🎓 Techno International Batanagar Exam Portal
 
-## Project info
+A fully functional **Exam Portal** built using **ReactJS** and **Firebase**.  
+The portal includes two panels:
+- **Admin Panel**: For managing exams, students, results, and announcements.
+- **Student Panel**: For students to register, take exams, view results, and receive updates.
 
-**URL**: https://lovable.dev/projects/4447f0e5-d33b-43ee-bb84-031f759e495f
+---
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+### 🛠️ Admin Panel:
+- Secure Admin Login (Firebase Authentication)
+- Create, Update & Delete Exams
+- Manage Students (Add/Remove)
+- Publish Results
+- Send Notifications & Announcements
+- Real-time Database Management
 
-**Use Lovable**
+### 🎓 Student Panel:
+- Student Registration & Login
+- View Upcoming & Ongoing Exams
+- Take Online Exams (MCQs, Descriptive, etc.)
+- View Exam Results
+- Receive Notifications & Announcements
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4447f0e5-d33b-43ee-bb84-031f759e495f) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🏗️ Tech Stack
 
-**Use your preferred IDE**
+- **Frontend:** ReactJS, Tailwind CSS / Bootstrap
+- **Backend:** Firebase Authentication, Firebase Firestore Database, Firebase Storage
+- **Hosting:** Firebase Hosting
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 📂 Folder Structure
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```
+/exam-portal
+├── /public
+├── /src
+│   ├── /components
+│   │   ├── /Admin
+│   │   └── /Student
+│   ├── /pages
+│   │   ├── AdminDashboard.jsx
+│   │   ├── StudentDashboard.jsx
+│   │   └── Login.jsx
+│   ├── /firebase
+│   │   └── firebaseConfig.js
+│   ├── App.js
+│   └── index.js
+├── .gitignore
+├── package.json
+└── README.md
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔐 Authentication
 
-**Use GitHub Codespaces**
+- **Admin & Students**: Login secured using **Firebase Authentication (Email/Password)**.
+- Role-based access: Admins and Students have separate dashboard access.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 📝 How to Run Locally
 
-This project is built with .
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/your-username/exam-portal.git
+   cd exam-portal
+   ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
 
-## How can I deploy this project?
+3. **Firebase Setup:**
+   - Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
+   - Enable **Authentication** (Email/Password)
+   - Setup **Firestore Database** and **Storage**
+   - Get your Firebase config and replace it in `/src/firebase/firebaseConfig.js`
 
-Simply open [Lovable](https://lovable.dev/projects/4447f0e5-d33b-43ee-bb84-031f759e495f) and click on Share -> Publish.
+4. **Run the App:**
+   ```bash
+   npm start
+   ```
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 🌐 Live Demo
+
+🚧 _Will be added after deployment_  
+Firebase Hosting link: _Coming soon_
+
+---
+
+## 📸 Screenshots
+
+available soon..........
+
+---
+
+## 📄 License
+
+This project is developed for **Techno International Batanagar** and is meant for educational use.
+
+---
+
+## 🤝 Contributors
+
+- **Vivek dasvivek398@gmail.com ** - Developer  
+_(Feel free to add others if applicable)_
+
